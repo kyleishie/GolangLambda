@@ -1,4 +1,4 @@
-#### GolangLambda
+## GolangLambda
 GolangLambda is a npm package for AWS CDK that makes creating
 Lambdas with Golang extremely simple. No need to figure out how/when to build your code 
 because GolangLambda will build it for you within a Docker container. The best part is that
