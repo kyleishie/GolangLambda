@@ -23,7 +23,7 @@ export class GolangLambda extends lambda.Function {
         const source = path.join(__dirname, props?.sourcePath || '../cmd/');
         const bundlingCommands = props?.bundlingCommands || [];
 
-        if (props?.testingEnabled != false) {
+        if (props?.testingEnabled !== false) {
             bundlingCommands.push('go test -v');
         }
 
