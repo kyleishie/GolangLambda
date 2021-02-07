@@ -1,6 +1,6 @@
 {
   "name": "golanglambda",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A CDK Construct for easily creating Lambdas using Golang.",
   "main": "lib/GolangLambda.js",
   "types": "lib/GolangLambda.d.ts",
@@ -28,8 +28,8 @@
   "author": "Kyle Ishie",
   "license": "MIT",
   "dependencies": {
-    "@aws-cdk/aws-lambda": "^1.87.0",
-    "@aws-cdk/core": "^1.87.0",
+    "@aws-cdk/aws-lambda": "^1.88.0",
+    "@aws-cdk/core": "^1.88.0",
     "@types/node": "^14.14.22",
     "path": "^0.12.7",
     "ts-node": "^9.1.1"
